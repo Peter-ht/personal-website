@@ -67,6 +67,20 @@ header a:hover{
 #Projects h2{
     color: darkolivegreen;
 }
+#Projects section[aria-labelledby="portfolio-project"]{
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border: 1px solid darkseagreen;
+    border-radius: 8px;
+}
+#Projects section[aria-labelledby="portfolio-project"] h3{
+    color: darkolivegreen;
+    margin-top: 0;
+}
+#Projects section[aria-labelledby="portfolio-project"] p{
+    line-height: 1.6;
+    margin-bottom: 0;
+}
 .calculator-project{
     display: grid;
     grid-template-columns: 180px minmax(0, 1fr);
@@ -119,6 +133,8 @@ footer a:hover{
         max-width: 280px;
     }
 }
+
+
 
 
 
